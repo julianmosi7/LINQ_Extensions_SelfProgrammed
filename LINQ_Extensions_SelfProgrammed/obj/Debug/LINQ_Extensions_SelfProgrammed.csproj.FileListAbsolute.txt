@@ -10,3 +10,14 @@ D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgra
 D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.csproj.CopyComplete
 D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.exe
 D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\bin\Debug\LINQ_Extensions_SelfProgrammed.exe.config
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\bin\Debug\LINQ_Extensions_SelfProgrammed.exe
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\bin\Debug\LINQ_Extensions_SelfProgrammed.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\bin\Debug\MyLinqLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\bin\Debug\MyLinqLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.csprojAssemblyReference.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.Properties.Resources.resources
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.csproj.GenerateResource.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.csproj.CopyComplete
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.exe
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\LINQ_Extensions_SelfProgrammed\obj\Debug\LINQ_Extensions_SelfProgrammed.pdb

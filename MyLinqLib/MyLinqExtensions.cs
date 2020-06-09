@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LINQ_Extensions_SelfProgrammed;
+using System;
 using System.Collections.Generic;
 
 namespace MyLinqLib
@@ -6,6 +7,7 @@ namespace MyLinqLib
     public static class MyLinqExtensions
     {
         public delegate bool del<T>(T t);
+        public delegate double delDouble<T>(T t);
 
         #region ---------------------------------------- helpers for printing
         private const int HEADER_LENGTH = 90;
@@ -58,7 +60,7 @@ namespace MyLinqLib
             {
                 if (action(item))
                 {
-                    return item;
+                    return item;f
                 }
             }
             return list;
@@ -88,20 +90,33 @@ namespace MyLinqLib
             return last;
         }
 
-        /*
-        public static object LastOrDefault<T>(this List<T> list, del<T> action)
+        public static object Single<T>(this List<T> list, del<T> action = null)
         {
-            object last = null;
+            var newList = new List<T>();
             foreach (var item in list)
             {
                 if (action(item))
                 {
-                    last = item;
+                    newList.Add(item);
                 }
             }
-            return list;
+
+            if(newList.Count > 1)
+            {
+                throw new Exception();
+            }
+            else
+            {
+                return newList[0];
+            }
+           
         }
-        */
+
+        public static object ElementAt<T>(this List<T> list, int position)
+        {
+
+        }
+       
 
         public static List<T> Where<T>(this List<T> list, del<T> action)
         {
@@ -116,13 +131,30 @@ namespace MyLinqLib
             return newList;
         }
 
-        /*
-        public static List<T> Distinct<T>(this List<T> list)
-        {            
+        
+        public static List<T> Distinct<T>(this List<T> list, int elements)
+        {
+            bool t = false;
             var newList = new List<T>();
-            
+            foreach (var item in list)
+            {
+                t = false;
+                foreach (var itemNewList in newList)
+                {
+                    if (itemNewList.Equals(item))
+                    {
+                        t = true;
+                    }
+
+                }
+                if (!t)
+                {
+                    newList.Add(item);
+                }
+            }
+            return newList;
         }
-        */
+        
 
         public static List<T> Take<T>(this List<T> list, int num)
         {
@@ -133,5 +165,37 @@ namespace MyLinqLib
             }
             return newList;
         }
+
+        public static double Average(this List<double> list)
+        {
+            double avg = 0;
+            foreach (var item in list)
+            {
+                avg = avg + item;
+            }
+            return avg / list.Count;
+        }
+
+        public static int Average(this List<int> list)
+        {
+            int avg = 0;
+            foreach (var item in list)
+            {
+                avg = avg + item;
+            }
+            return avg / list.Count;
+        }
+
+        
+        public static object Average<T>(this List<T> list, delDouble<T> action)
+        {
+            double avg = 0;
+            foreach (var item in list)
+            {
+                avg = avg + action(item);
+            }
+            return avg / list.Count;
+        }
+        
     }
 }

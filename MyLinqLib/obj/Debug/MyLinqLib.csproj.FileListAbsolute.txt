@@ -4,3 +4,8 @@ D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\MyLinqLib\obj\Debug\MyLinq
 D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\MyLinqLib\obj\Debug\MyLinqLib.csproj.CoreCompileInputs.cache
 D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\MyLinqLib\obj\Debug\MyLinqLib.dll
 D:\Schule\4.Klasse\POS\LINQ_Extensions_SelfProgrammed\MyLinqLib\obj\Debug\MyLinqLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\MyLinqLib\bin\Debug\MyLinqLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\MyLinqLib\bin\Debug\MyLinqLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\MyLinqLib\obj\Debug\MyLinqLib.csprojAssemblyReference.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\MyLinqLib\obj\Debug\MyLinqLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\LINQ\LINQ_Extensions_SelfProgrammed\MyLinqLib\obj\Debug\MyLinqLib.pdb

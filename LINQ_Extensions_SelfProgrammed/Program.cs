@@ -69,7 +69,7 @@ namespace LINQ_Extensions_SelfProgrammed
       //integers.TakeWhile(x => x < 100).Show("integers.TakeWhile(x => x < 100");
       //strings.SkipWhile(x => x[1] == 'a').Show("strings.SkipWhile(x => x[1] == 'a')");
 
-      //integers.Distinct().Show("integers.Distinct()");
+      integers.Distinct(1).Show("integers.Distinct()");
     }
 
     private static void TestProjection()
@@ -85,14 +85,15 @@ namespace LINQ_Extensions_SelfProgrammed
       doubles.First().ShowSingle("doubles.First()");
       persons.First(x => x.Age < 60).ShowSingle("persons.First(x => x.Age < 60)");
       doubles.Last().ShowSingle("doubles.Last()");
+      persons.Single(x => x.Age == 44).ShowSingle("persons.Single(x => x.Age < 60)");
       //integers.FirstOrDefault(x => x > 1000).ShowSingle("integers.FirstOrDefault(x => x > 1000)");
     }
 
     private static void TestAggregation()
     {
-      //integers.Average().ShowSingle("integers.Average()");
-      //doubles.Average().ShowSingle("doubles.Average()");
-      //persons.Average(x => x.Sallary).ShowSingle("persons.Average(x => x.Sallary)");
+      integers.Average().ShowSingle("integers.Average()");
+      doubles.Average().ShowSingle("doubles.Average()");
+      persons.Average(x => x.Sallary).ShowSingle("persons.Average(x => x.Sallary)");
       //persons.Count(x => x.Age > 60).ShowSingle("persons.Count(x => x.Age > 60)");
       //persons.Count(x => x.Lastname.Length > 5).ShowSingle("persons.Count(x => x.Lastname.Length > 5)");
     }
